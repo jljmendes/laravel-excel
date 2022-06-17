@@ -11,7 +11,7 @@
 <body>
     <div class="container mt-5 text-center">
         <h2 class="mb-4">
-            Importar e Exportar dados Excel & CSV <a href="https://techvblogs.com/blog/laravel-import-export-excel-csv-file?ref=repo" target="_blank"></a>
+            Importar e Exportar dados Excel & CSV <a href="" target="_blank"></a>
         </h2>
         <form action="{{ route('import-file') }}" method="POST" enctype="multipart/form-data">
             @csrf

@@ -17,10 +17,13 @@ class UserController extends Controller
     public function import(Request $request){
         Excel::import(new ImportUser, $request->file('file')->store('temp'));
         return "Os registros foram importados com sucesso!";
+        dd($request);
     }
 
     public function importView(Request $request){
         return view('importFile');
+        dd($request);
+
     }
 
 

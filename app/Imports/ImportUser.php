@@ -18,6 +18,7 @@ class ImportUser implements ToModel
             'name' => $row[0],
             'email' => $row[1],
             'password' => bcrypt($row[2]),
+
         ]);
     }
 }
